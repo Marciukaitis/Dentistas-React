@@ -10,7 +10,7 @@ const Home = () => {
   
   return (
     <main className="main-container " >
-      <h1>Home</h1>
+      <h1>Inicio</h1>
       <div className='card-grid'>
         {dentists.map ((dentist) => 
         <Card key={dentist.id}  dentist={dentist}/>

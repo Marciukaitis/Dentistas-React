@@ -1,0 +1,12 @@
+.favs {
+font-weight: bold;
+font-size: 20px;
+align-items: center;
+}
+
+.favsGeneral {
+min-height: 82vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}

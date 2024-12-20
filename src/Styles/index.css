@@ -1,3 +1,4 @@
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -6,15 +7,14 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: rgb(212, 245, 250);
+  margin: 0;
+  padding: 0;
+  height: 100%;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
-.favs {
-font-weight: bold;
-font-size: 20px;
 }
 .dark .favs {
   color: white;
@@ -34,24 +34,7 @@ a:hover{
   color: rgb(136, 136, 136);
 } 
 
-table {
- border-collapse: collapse;
-    border-spacing: 0;
-    width: 100%;
-    display: table;
-    border: 1px solid #ccc;
 
-}
-
-td, th {
-  border: 1px solid #dddddd;
-  text-align: left;
-  padding: 8px;
-}
-
-tr:nth-child(even) {
-  background-color: #dddddd;
-}
 .dark .detail-container {
   padding: 2rem;
   max-width: 800px;
@@ -64,6 +47,10 @@ tr:nth-child(even) {
 .dark {
   background-color: rgb(40, 55, 65);
   color: white;
+}
+.dark body {
+  background-color: rgb(40, 55, 65);
+  
 }
 .dark .form-container {
   color: white;
@@ -97,6 +84,7 @@ tr:nth-child(even) {
 }
 .dark .card {
   background-color: rgb(8, 81, 97);
+  
 }
 .dark button:hover {
   background-color: #777;
@@ -104,5 +92,3 @@ tr:nth-child(even) {
 .dark .card-grid {
   background-color: rgb(40, 55, 65);
 }
-
-

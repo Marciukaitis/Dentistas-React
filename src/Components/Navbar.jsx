@@ -11,14 +11,14 @@ const Navbar = () => {
     dispatch({ type: "TOGGLE_THEME" }); 
   };
   return (
-    <nav className={`navbar ${state.theme ? "light-mode" :"dark-mode" }`}>
+    <nav className={`navbar ${state.theme ? "light" :"dark" }`}>
       <div className="navbar-container">
         <Link to="/">
         </Link>
         <div className="nav-links">
-          <Link to="/" >Home</Link>
+          <Link to="/" >Inicio</Link>
           <Link to="/contact" >Contacto</Link>
-          <Link to="/favs" >Favs</Link>
+          <Link to="/favs" >Favoritos</Link>
         </div>
         <button onClick={handleThemeToggle} className="theme-toggle">
           {state.theme ? "🌙 " : "🌞 "}

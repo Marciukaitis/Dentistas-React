@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "../Components/Card";
 import { useDentistState } from "../Context/GlobalContext";
-import "../Styles/index.css"
+import "../Styles/favs.css"
 
 
 const Favs = () => {
@@ -10,8 +10,8 @@ const Favs = () => {
 
 
   return (
-    <>
-      <h1>Dentists Favs</h1>
+    <div className="favsGeneral">
+      <h1>Dentistas favoritos</h1>
       <div className="card-grid">
        {favs.length === 0 ? (
         <p className="favs"> No tienes agregado ningun dentista en favoritos.</p> 
@@ -23,7 +23,7 @@ const Favs = () => {
 
   
       </div>
-    </>
+    </div>
   );
 };
 

@@ -7,8 +7,10 @@ footer {
     justify-content: space-around;
     background-color: rgb(212, 245, 250);
     margin-top: 2rem;
-    height: 40px;
+    position: static;
+    box-shadow: 1px 0 15px -5px #638cb5, 10px 0 15px -5px #638cb5;;
   }
+  
   
   footer .logoFoot {
     display: flex;

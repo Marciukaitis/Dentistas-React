@@ -6,8 +6,8 @@ import "../Styles/form.css"
 const Contact = () => {
   return (
     <div className='contact-container'>
-      <h2>Want to know more?</h2>
-      <p>Send us your questions and we will contact you</p>
+      <h2>¿Quieres saber más? </h2>
+      <p>Envíanos tus preguntas y nos pondremos en contacto contigo</p>
       <Form/>
     </div>
   )

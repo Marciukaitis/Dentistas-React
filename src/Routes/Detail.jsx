@@ -20,10 +20,10 @@ useEffect(() => {
   } ,[]);
 
   return (
-    <>
+    <div className='detalleGeneral'>
     <div className='detail-container'> 
     <table> 
-      <h1>Detail Dentist {dentists.id} </h1>
+      <h1>Detalle del dentista {dentists.id} </h1>
       <h2> Nombre: {dentists.name}</h2>
       <h2> Apellido:{dentists.username}</h2>
       <h2> Telefono:{dentists.phone}</h2>
@@ -31,7 +31,7 @@ useEffect(() => {
       </table>
       </div>
      
-    </>
+    </div>
   )
 }
 
