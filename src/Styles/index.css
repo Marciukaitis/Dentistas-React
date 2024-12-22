@@ -6,10 +6,23 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(212, 245, 250);
   margin: 0;
   padding: 0;
   height: 100%;
+  overflow: hidden;
+}
+
+.page-container{
+  min-height: 75vh;
+}
+
+.App{
+  overflow: auto;
+  height: 100vh;
+}
+
+.light{
+  background-color: rgb(212, 245, 250);
 }
 
 code {
@@ -85,6 +98,11 @@ a:hover{
 .dark .card {
   background-color: rgb(40, 55, 65);
   
+}
+
+.dark .card h3 , .dark .card p {
+  color: white;
+
 }
 .dark button:hover {
   background-color: #777;

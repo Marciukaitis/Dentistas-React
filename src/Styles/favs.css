@@ -5,7 +5,6 @@ align-items: center;
 }
 
 .favsGeneral {
-min-height: 82vh;
   margin: 0;
   display: flex;
   flex-direction: column;

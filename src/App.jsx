@@ -13,7 +13,7 @@ function App() {
   const { state } = useDentistState();
 
   return (
-    <div className={`App ${state.theme ? "" : "dark"}`}>
+    <div className={`App ${state.theme ? "light" : "dark"}`}>
         <Routes>
         <Route path="/" element={ <Layout/>}> 
           <Route path="/" element= {<Home />} /> 

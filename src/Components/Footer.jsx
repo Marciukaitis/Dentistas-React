@@ -5,8 +5,7 @@ const Footer = () => {
   return (
     <footer>
         <div className='logoFoot' >
-        <p>Powered by</p>
-        <img src="./images/DH.png" alt='DH-logo' />
+        <p>Powered by micaelamarciukaitis@gmail.com</p>
         </div> 
         <div className='redes'> 
         <img src="./images/ico-facebook.png" alt="Facebook" />
