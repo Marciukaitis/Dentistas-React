@@ -20,13 +20,17 @@ const Card = ({ dentist } ) => {
 
   return (
     <div className="card">
-      <Link to={`/detail/${dentist.id}`}>
         <img src="/images/doctor.jpg" alt= {dentist.name} className="card-image"/>
+        <button className="favButton" onClick={toggleFav}> {findFav ? <img 
+        src="/images/estrella (1).png" style={{ width: '16px', height: '16px', marginRight: '8px' }}  /> :  <img 
+        src="/images/estrella.png" style={{ width: '16px', height: '16px', marginRight: '8px' }} />  } </button>
+        <Link to={`/detail/${dentist.id}`}>
         <h3>{dentist.name}</h3>
         <p>{dentist.username}</p>
-      </Link>
-        <button className="favButton" onClick={toggleFav}> {findFav ? "🌟 Agregado a favorito" : "⭐"}</button>
+        </Link>
+    
     </div>
+    
   );
 };
 

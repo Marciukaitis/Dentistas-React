@@ -2,13 +2,13 @@ footer {
     width: 100%;
     background-color: #638cb5;
     color: #000000;
-    padding: 20px 0;
+    padding: 10px 0;
     display: flex;
     justify-content: space-around;
-    background-color: rgb(212, 245, 250);
+    background-color: #538083;
     margin-top: 2rem;
     position: static;
-    box-shadow: 1px 0 15px -5px #638cb5, 10px 0 15px -5px #638cb5;;
+    box-shadow: -10px 0 15px -5px #638cb5, 10px 0 15px -5px #4f8a8e;
   }
   
   
@@ -32,7 +32,7 @@ footer {
     gap: 10px;
     height: 25px;
     width: 200px;
-    margin: 0;
+    margin: 0.8em;
     display: flex;
     justify-content: space-around;
   }

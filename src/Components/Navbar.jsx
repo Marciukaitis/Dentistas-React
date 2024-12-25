@@ -21,8 +21,9 @@ const Navbar = () => {
           <Link to="/favs" >Favoritos</Link>
         </div>
         <button onClick={handleThemeToggle} className="theme-toggle">
-          {state.theme ? "🌙 " : "🌞 "}
-        </button>
+          {state.theme ? <img 
+        src="/images/oscuro.png" style={{ width: '20px', height: '20px'}}  /> :  <img 
+        src="/images/modo-claro.png" style={{ width: '20px', height: '20px' }} />  } </button>
       </div>
     </nav>
   );

@@ -55,7 +55,7 @@ const Form = () => {
             onChange={handleChange}
             />
             <label> Mensaje: </label>
-            <textarea 
+            <textarea rows="10" cols="50"
             value={user.texto}
             name="texto"
             onChange={handleChange}

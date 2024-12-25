@@ -22,8 +22,9 @@ body {
 }
 
 .light{
-  background-color: rgb(212, 245, 250);
+  background-color: #538083
 }
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -44,32 +45,32 @@ a{
   cursor: pointer;
 }
 a:hover{
-  color: rgb(136, 136, 136);
-} 
-
+  color: white
+}
 
 .dark .detail-container {
   padding: 2rem;
   max-width: 800px;
   margin: 2rem auto;
-  background-color: #12121296;
+  background-color: #20393a;;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   color: white;
 }
 .dark {
-  background-color: rgb(40, 55, 65);
+  background-color: #20393a;
   color: white;
 }
+
 .dark body {
-  background-color: rgb(40, 55, 65);
+  background-color: #20393a;
   
 }
 .dark .form-container {
   color: white;
 }
 .dark .contact-container{
-  background-color: rgb(40, 55, 65);
+  background-color: #20393a;
 }
 .dark .contact-container p {
   color: white;
@@ -78,25 +79,24 @@ a:hover{
   color: white;
 }
 .dark .navbar {
-  background-color: #3c3f3e96;
+  background-color:#20393a;
 }
+
 .dark footer{
-  background-color: #3c3f3e96;
+  background-color:#20393a;
   color: white;
 }
 
 .dark .favButton{
-  background-color: #12121296;
+  background-color: #213334;
 }
-.dark .favButton:hover {
-  background-color: #035c66;
-}
+
 .dark button {
-  background-color: #555;
+  background-color: #20393a;
   color: white;
 }
 .dark .card {
-  background-color: rgb(40, 55, 65);
+  background-color: #213334;
   
 }
 
@@ -104,9 +104,7 @@ a:hover{
   color: white;
 
 }
-.dark button:hover {
-  background-color: #777;
-}
+
 .dark .card-grid {
-  background-color: rgb(40, 55, 65);
+  background-color:#20393a;
 }

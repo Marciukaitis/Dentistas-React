@@ -5,8 +5,6 @@
     justify-content: space-around;
     align-items: center;
     transition: background-color 0.3s ease;
-
-    
   }
   
   .navbar-container {
@@ -14,7 +12,8 @@
      width: 80vw;
     justify-content: flex-end;
     padding: 0.5rem;
-   box-shadow: -10px 0 15px -5px #638cb5, 10px 0 15px -5px #638cb5;;
+   box-shadow: -10px 0 15px -5px #638cb5, 10px 0 15px -5px #4f8a8e;
+   border-radius:3rem;
   }
   
   .dark nav a {
@@ -31,13 +30,12 @@
   }
   
   .navbar .nav-links:hover {
-    color: #f39c12;
+    color: #ffffff;
   }
 
   .light-mode {
-    background-color: #fff;
+    background-color: #538083;
     color: #333;
-    background-color: rgb(185, 238, 246);
   }
   
   .dark-mode {
@@ -49,10 +47,12 @@
   .theme-toggle {
     margin-left: 20px;
     padding: 0px 15px 0px 10px;
-    border: 2px solid #9ce5f7;
     border-radius: 5px;
     cursor: pointer;
     transition: all 0.3s ease;
+    background-color: #538083;
   }
   
-  
+  .theme-toggle .dark {
+       border: 2px solid #538083;
+  }

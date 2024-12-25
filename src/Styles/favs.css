@@ -1,11 +1,13 @@
 .favs {
 font-weight: bold;
 font-size: 20px;
-align-items: center;
+/* align-items: center; */
+padding: 50px;
 }
 
 .favsGeneral {
   margin: 0;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
