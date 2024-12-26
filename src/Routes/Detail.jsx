@@ -20,16 +20,15 @@ useEffect(() => {
   } ,[]);
 
   return (
-    <div className='detalleGeneral'>
+
     <div className='detail-container'> 
-    <table> 
       <h1>Detalle del dentista {dentists.id} </h1>
       <h2> Nombre: {dentists.name}</h2>
       <h2> Apellido:{dentists.username}</h2>
       <h2> Telefono:{dentists.phone}</h2>
       <h2> Website: {dentists.website}</h2>
-      </table>
-      </div>
+      
+    
      
     </div>
   )

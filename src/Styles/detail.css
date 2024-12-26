@@ -1,5 +1,5 @@
 
-  .detail-container h1,
+ .detail-container h1,
   .detail-container h2 {
     margin: 10px 0;
   }
@@ -7,39 +7,54 @@
   .detail-container h1 {
     font-size: 2rem;
     font-weight: bold;
-  }
+      font-size: 24px;
+      color: #333;
+      margin-bottom: 20px;
+      border-bottom: 2px solid ;
+      padding-bottom: 10px;
+    }
   
   .detail-container h2 {
     font-size: 1.2rem;
-    color: var(--detail-subtext-color);
+    color: #161515;
+    
   }
-  .detalleGeneral {
+ 
+
+  .detail-container {
+    background-color:  #538083;
+    margin: 2rem auto;
+    padding: 20px 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 400px;
+   text-align: center;
+
+  }
+   
+  .dark .detail-container h1 {
+    color:rgb(191, 216, 210)
+  }
+  .dark .detail-container {
+    margin: 2rem auto;
+    padding: 20px 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+    width: 400px;
     text-align: center;
   }
-  .detail-container {
-    background-color: rgb(212, 245, 250);
+
+  .dark .detail-container h2
+  {
+    color: rgb(214, 218, 217);
+  }
+  .dark .detail-container {
     padding: 2rem;
     max-width: 800px;
     margin: 2rem auto;
+    background-color: #20393a;;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     
   }
-  table {
-    border-collapse: collapse;
-       border-spacing: 0;
-       width: 100%;
-       display: table;
-       border: 1px solid #ccc;
-   
-   }
-   
-   td, th {
-     border: 1px solid #dddddd;
-     text-align: left;
-     padding: 8px;
-   }
-   
-   tr:nth-child(even) {
-     background-color: #dddddd;
-   }
+  

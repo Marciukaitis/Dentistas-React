@@ -7,10 +7,14 @@ footer {
     justify-content: space-around;
     background-color: #538083;
     margin-top: 2rem;
-    position: static;
-    box-shadow: -10px 0 15px -5px #638cb5, 10px 0 15px -5px #4f8a8e;
+    box-shadow: -10px 0 8px -5px #81f0ed;
   }
-  
+
+  .dark footer{
+    background-color:#20393a;
+    color: white;
+    box-shadow: -10px 0 8px -5px #81f0ed;
+  }
   
   footer .logoFoot {
     display: flex;

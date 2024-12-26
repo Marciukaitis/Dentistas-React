@@ -1,17 +1,18 @@
 
 .card {
   font-family: Optima, sans-serif;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
     text-align: center;
     display: flex;
     flex-direction: column;
     width: 200px;
     padding: 0.5rem 0.5rem 0 0.5rem;
-    border: 0.5px solid rgb(136, 136, 136);
+    border-bottom: 2px solid rgb(183, 216, 209);
     background-color: #4f8e92
   }
-
+.dark .card {
+  border-bottom: 2px solid rgb(49, 99, 96);
+}
 .card-grid{
     display: flex;
     justify-content: space-evenly;
@@ -26,16 +27,16 @@
     width: 100%;
     height: auto;
     object-fit: cover;
-    border-radius: 10px;
+    border-radius: 25px;
   }
   
   .card-grid h3 {
     font-size: 1.2rem;
-    margin: 0.2rem 0;
+    margin: 0.1rem 0.1rem;
   }
   
   .card-grid p {
-    margin: 0;
+    /* margin: 0; */
     color: #040404;
 
   } 
@@ -43,6 +44,25 @@
    .favButton{
     border: none;
     cursor: pointer;
-    background-color: #4f8e92
+    background-color: #4f8e92;
+    padding: auto;
+    margin: auto;
+  }
+  .dark .favButton{
+    background-color: #213334;
+  }
   
+
+  .dark .card {
+    background-color: #213334;
+    
+  }
+  
+  .dark .card h3 , .dark .card p {
+    color: rgb(214, 218, 217);
+  
+  }
+  
+  .dark .card-grid {
+    background-color:#20393a;
   }

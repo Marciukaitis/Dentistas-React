@@ -65,3 +65,15 @@ textarea {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
 }
 
+.dark .form-container {
+  color: #41797b;
+}
+.dark .contact-container{
+  background-color: #20393a;
+}
+.dark .contact-container p {
+  color: white;
+}
+.dark .contact-container h2{
+  color:#41797b;
+}

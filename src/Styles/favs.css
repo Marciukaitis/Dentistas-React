@@ -1,10 +1,11 @@
 .favs {
 font-weight: bold;
 font-size: 20px;
-/* align-items: center; */
 padding: 50px;
 }
-
+.dark h1{
+  color: rgb(214, 218, 217);
+}
 .favsGeneral {
   margin: 0;
   display: flex;

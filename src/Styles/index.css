@@ -24,20 +24,23 @@ body {
 .light{
   background-color: #538083
 }
-
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.dark {
+  background-color: #20393a;
+ 
 }
 .dark .favs {
-  color: white;
+  color: rgb(214, 218, 217);
 }
-h1{
-
+h1
+{
   text-align: center;
 }
-
+.dark a{
+  color: white;
+}
+.dark a:hover {
+  color:#000
+}
 a{
   color: #000;
   text-decoration: none;
@@ -48,63 +51,3 @@ a:hover{
   color: white
 }
 
-.dark .detail-container {
-  padding: 2rem;
-  max-width: 800px;
-  margin: 2rem auto;
-  background-color: #20393a;;
-  border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  color: white;
-}
-.dark {
-  background-color: #20393a;
-  color: white;
-}
-
-.dark body {
-  background-color: #20393a;
-  
-}
-.dark .form-container {
-  color: white;
-}
-.dark .contact-container{
-  background-color: #20393a;
-}
-.dark .contact-container p {
-  color: white;
-}
-.dark .contact-container h2{
-  color: white;
-}
-.dark .navbar {
-  background-color:#20393a;
-}
-
-.dark footer{
-  background-color:#20393a;
-  color: white;
-}
-
-.dark .favButton{
-  background-color: #213334;
-}
-
-.dark button {
-  background-color: #20393a;
-  color: white;
-}
-.dark .card {
-  background-color: #213334;
-  
-}
-
-.dark .card h3 , .dark .card p {
-  color: white;
-
-}
-
-.dark .card-grid {
-  background-color:#20393a;
-}
