@@ -8,8 +8,10 @@
     width: 200px;
     padding: 0.5rem 0.5rem 0 0.5rem;
     border-bottom: 2px solid rgb(183, 216, 209);
-    background-color: #4f8e92
+    background-color: #63888b
   }
+
+  
 .dark .card {
   border-bottom: 2px solid rgb(49, 99, 96);
 }
@@ -27,7 +29,7 @@
     width: 100%;
     height: auto;
     object-fit: cover;
-    border-radius: 25px;
+    border-radius: 33px;
   }
   
   .card-grid h3 {
@@ -44,17 +46,17 @@
    .favButton{
     border: none;
     cursor: pointer;
-    background-color: #4f8e92;
+    background-color: #63888b;
     padding: auto;
     margin: auto;
   }
   .dark .favButton{
-    background-color: #213334;
+    background-color: #334748
   }
   
 
   .dark .card {
-    background-color: #213334;
+    background-color: #334748;
     
   }
   
